@@ -9,9 +9,11 @@ package bandamusical;
  *
  * @author MARGOT
  */
-public class Flauta extends Viento {
-    void Tocar (String tono){
-        super.Tocar(tono);
-        System.out.println("Flauta -> "+ tono);
+public class Percusion extends Instrumentos{
+
+    @Override
+    void Tocar(String tono) {
+         System.out.println("Instrumentos de Percusión");
     }
+    
 }

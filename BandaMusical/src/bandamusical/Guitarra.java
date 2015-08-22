@@ -11,6 +11,7 @@ package bandamusical;
  */
 public class Guitarra extends Cuerda{
     void Tocar (String tono){
+        super.Tocar(tono);
         System.out.println("Guitarra -> "+ tono);
     }
 }

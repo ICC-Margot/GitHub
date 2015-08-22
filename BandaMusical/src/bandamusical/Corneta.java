@@ -12,5 +12,6 @@ package bandamusical;
 public class Corneta extends Viento {
     void Tocar (String tono){
         System.out.println("Corneta -> "+ tono);
+        
     }
 }

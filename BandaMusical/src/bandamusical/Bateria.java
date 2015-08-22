@@ -9,9 +9,8 @@ package bandamusical;
  *
  * @author MARGOT
  */
-public class Flauta extends Viento {
+public class Bateria extends Percusion{
     void Tocar (String tono){
-        super.Tocar(tono);
-        System.out.println("Flauta -> "+ tono);
+        System.out.println("Bateria -> "+ tono);
     }
 }

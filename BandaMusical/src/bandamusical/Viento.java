@@ -13,7 +13,7 @@ public class Viento extends Instrumentos {
 
     @Override
     void Tocar(String tono) {
-         System.out.println("Instrumento de Viento: ");
+         System.out.println("Instrumento de Viento");
     }
     
 }
